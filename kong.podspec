@@ -5,6 +5,7 @@ s.summary       = "of iOS a"
 s.description   = <<-DESC
 kong
 DESC
+s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.source       = { :git => "https://github.com/zhangjiaren/kongshenyue.git"}
 s.source_files = "Logistics/Taxi/*.{swift}”
 s.requires_arc = true
