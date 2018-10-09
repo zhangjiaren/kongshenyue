@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   s.subspec 'libwebp' do |libwebp|
   	libwebp.compiler_flags = '-D_THREAD_SAFE'
 	libwebp.requires_arc = false
-	s.pod_target_xcconfig = {
+	libwebp.pod_target_xcconfig = {
   		'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/LJBaseWebImage/libwebp/**'
   	}
 
